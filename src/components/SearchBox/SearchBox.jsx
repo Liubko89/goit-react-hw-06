@@ -1,6 +1,6 @@
 import css from "./SearchBox.module.css";
 
-const SearchBox = ({ onSearch, value }) => {
+const SearchBox = () => {
   const handleSearch = (ev) => {
     onSearch(ev.target.value);
   };
